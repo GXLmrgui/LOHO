@@ -1,0 +1,287 @@
+@import "component/reset.scss";
+@import "component/footer.scss";
+
+
+.p{
+    width: 1191px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    
+    text-align: right;
+    span{
+       a{
+            color: #0066aa;
+            font-size: 12px;
+        }
+    }
+}
+.user-register{
+    width: 1191px;
+    height: 736px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    .form{
+        float: left;
+        height: 614px;
+        width: 635px;
+        margin-top: 50px;
+        margin-left:36px;
+        border-right: 1px dashed #cccccc;
+         
+            
+        .p1{
+                margin-left: 20px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 17px;
+                span{
+                    color: #ff0000;
+                }
+            }
+        .p2{
+                margin-left: 20px;
+                margin-top:5px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                color: 888888;
+                span{
+                    color: #0055ff;
+                }
+            }
+        .p3{
+                margin-left: 20px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                color: 888888;
+                span{
+                    color: #0055ff;
+                }
+            }
+         
+        div{
+            width: 614px;
+            height: 75px;
+            
+            input{
+                margin-left: 20px; 
+                height: 30px;  
+                width: 253px;
+                border: 1px solid #cccccc; 
+                }
+            input:focus{
+                border: 1px solid #0066aa;
+            }    
+            .msg{
+                font-size: 12px;
+                width: 150px;
+                height: 30px;
+                line-height: 30px;
+                color: red;
+            }
+            
+            .rmsg{
+                font-size: 12px;
+                width: 150px;
+                height: 30px;
+                line-height: 30px;
+                color: blue;
+            }
+        }    
+        .ph{
+                p{
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black;
+                    span{
+                        color: #ff0000;
+                        padding-right: 14px;
+                    }
+                }
+                
+                
+            }
+        .yqm{
+                p{
+                    margin-left: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black; 
+                }
+            }
+        .pass1{
+                p{
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black;
+                    span{
+                        color: #ff0000;
+                        padding-right: 14px;
+                    } 
+                }
+            }
+        .passp{
+                
+                p{
+                    margin-left: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black; 
+                }
+                ul{ 
+                    height: 18px;
+                    width: 593px;
+                    
+                    padding-left: 20px;
+                    li{ 
+                        float: left;
+                        height: 18px;
+                        width: 80px;
+                        line-height: 18px;
+                        font-size: 12px;
+                        margin-right: 3px;
+                        text-align: center;
+                        background: #cccccc;
+                    }
+                }
+            }
+        .pass2{
+                p{
+                    
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black;
+                    span{
+                        color: #ff0000;
+                        padding-right: 14px;
+                    } 
+                }
+            }
+        .yzm{   
+                position: relative;
+                p{
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black;
+                    span{
+                        color: #ff0000;
+                        padding-right: 14px;
+                    }
+                }
+                input{
+                    margin-left: 20px; 
+                    height: 30px;  
+                    width: 90px;
+                    border: 1px solid #cccccc; 
+                }
+                #vcode{
+                    position: absolute;
+                    display: block;
+                    height: 40px;
+                    width: 150px;
+                    left:120px;
+                    top:10px;
+                    
+                    
+                }
+                
+            }
+        .xieyi{
+                p{
+                    input{
+                        margin: 0;
+                        width: 12px;
+                        height: 12px;
+                        border:1px solid #cccccc ;
+                    }
+                    margin-left: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black;
+                    span{
+                        color: #0055ff;
+                        
+                    }
+                     
+                }
+                .btn{
+                        
+                        margin-top: 10px;
+                        display: block;
+                        height: 32px;
+                        width: 250px;
+                        margin-left: 21px;
+                        background: #dd0022;
+                        border-radius:3px;
+                        border: none;
+                        color: white;
+                        letter-spacing:5px;
+                        font-weight: 700;
+                        cursor:pointer;
+                    } 
+            }
+          
+        
+        
+        
+        
+        
+                     
+    }
+    .box2{
+        float: left;
+        height: 614px;
+        width: 392px;
+        margin-top: 50px;
+        
+        .p1{
+            margin-top: 70px;
+            height: 50px;
+            line-height: 50px;
+            span{
+                margin-left: 145px;
+                font-size: 12px;
+            }
+            button{
+                margin-left: 5px;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                background: #dd0022;
+                border-radius:1px;
+                border: none;
+                color: white;
+                cursor:pointer;
+            }
+        }
+        .p2{
+            height: 50px;
+            line-height: 50px;
+            span{
+                margin-left: 145px;
+                font-size: 12px;
+            }
+            button{
+                
+                margin-left: 5px;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                background: #eeeeee;
+                border-radius:1px;
+                border: 1px solid #cccccc;
+                color: #0066aa;
+                cursor:pointer;
+            }
+        }
+    }
+}

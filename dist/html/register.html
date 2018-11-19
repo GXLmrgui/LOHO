@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	    <link rel="stylesheet" type="text/css" href="../scss/register.css">	
+	</head>
+	<body>
+	    <p class="p"><span><a href="/index.html">返回首页</a></span><span>&nbsp;|&nbsp;</span><span><a href="javascript:;">帮助中心</a></span></p>
+	    <div class="user-register">
+	    	<form class="form" id="form">
+	    		<p class="p1">请填写注册信息（<span>*</span>为必填项）</p>
+	    		<p class="p2">在门店购买过商品的用户可凭手机号码和门店分配的密码直接<span>登录</span>。</p>
+	    		<p class="p3">为了您的账号安全，请登陆后<span>重置</span>默认密码！</p>
+	    		<div class="ph">
+	    			<p><span>*</span>手机号</p>
+	    		    <input type="text"  id="phone" class="required" placeholder="手机号"></input>
+	    		</div>
+	    		<div class="yqm">
+	    			<p class="p5">邀请码</p>
+	    		    <input type="text" placeholder="邀请码"/>
+	    		</div>
+	    		<div class="pass1">
+	    			<p class="p6"><span>*</span>密码</p>
+	    		    <input type="password" id="pass1" class="required" placeholder="请输入您的密码"/>
+	    		</div>
+	    		<div class="passp" id="passp">
+	    			<p class="p7">密码强度</p>
+	    			<ul>
+		    			<li class="li1">弱</li>
+		    			<li class="li2">中</li>
+		    			<li class="li3">强</li>
+	    		    </ul>
+	    		</div>
+	    		<div class="pass2">
+	    			<p class="p8"><span>*</span>确认密码</p>
+	    		    <input type="password" id="pass2" placeholder="请确认您的密码"/>
+	    		</div>
+	    		<div class="yzm" >
+	    			<p class="p9"><span>*</span>验证码</p>
+	    			<input type="text" id="code"/>
+	    			<span id="vcode"></span>
+	    		</div>
+	    		<div class="xieyi">
+	    			<p class="p10"><input type="checkbox" id="checkbox">我已看过并接受<span>用户协议<span></p>
+	    		    <button class="btn">免费注册</button>
+	    		</div>
+	    	</form>
+	    	
+	    	<div class="box2">
+	    		<form action="/html/login.html" class="form2">
+	    		<p class="p1"><span>已经拥有账号:</span><button>登录</button></p>
+	    		<p class="p2"><span>我忘记了密码!</span><button>忘记了密码</button></p>
+	    		<form>
+	    	</div>
+	    </div>
+	    <footer></footer>
+	    <script type="text/javascript" src="/libs/require/require.js" data-main="/js/register.js"></script>
+	</body>
+</html>

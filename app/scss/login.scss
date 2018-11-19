@@ -1,0 +1,154 @@
+@import "component/reset.scss";
+@import "component/footer.scss";
+.login{
+    height: 560px;
+    width: 1191px;
+    margin: 0 auto;
+    
+    .p{
+    width: 1191px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    
+    text-align: left;
+        span{
+               a{
+                    color: #0066aa;
+                    font-size: 12px;
+                }
+            }
+    }  
+    .box1{
+        float: left;
+        margin-top: 90px;
+        width: 880px;
+        height: 367px;
+       
+        
+        .img{
+            height: 281px;
+            width: 497px;
+            margin-left: 55px;
+            background: url(/images/holo/chongwu.png) no-repeat;
+        }
+    } 
+    form{
+        margin-top: 90px;
+        float: right;
+        width: 307px;
+        height: 367px;
+        border: 1px solid #cccccc;
+        ul{
+           margin-left: 30px;
+           width: 276px;
+           height: 367px; 
+           li{
+               width: 276px;
+               height: 59px;
+               line-height: 80px;
+               
+               input{
+                   width: 251px;
+                   height: 31px;
+                   border: 1px solid #cccccc;
+                }
+               
+            }
+            .li1{
+                   height: 60px;
+                   line-height: 60px;
+                   width: 130px;
+                   border-bottom: 1px solid #dd0022;
+                   
+               }
+            .li2{
+                    position: relative;
+                    span{
+                            position: absolute;
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+                            
+                            background: url(/images/user-spirit.png) no-repeat;
+                            background-position:-40px 0px ;
+                            top:31px;
+                            left:225px;
+                        }
+                }
+            .li3{
+                    position: relative;
+                    span{
+                            position: absolute;
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+                            
+                            background: url(/images/user-spirit.png) no-repeat;
+                            background-position:-60px 0px ;
+                            top:31px;
+                            left:225px;
+                        }
+                }
+            .li4{
+                position: relative;
+                input{
+                    height: 31px;  
+                    width: 90px;
+                    border: 1px solid #cccccc; 
+                }
+                #vcode{
+                    
+                    position: absolute;
+                    display: block;
+                    height: 30px;
+                    width: 150px;
+                    left:94px;
+                    top:12px;
+                    
+                    
+                }
+            } 
+            .li5{
+                p{  
+                    margin-top: 20px;
+                    height: 59px;
+                    line-height: 80px;
+                    input{
+                        width: 12px;
+                        height: 12px;
+                        border:1px solid #cccccc ;
+                    }
+                    
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: black;
+                    .span1{
+                        color: black;
+                        font-weight: 600;
+                        
+                    }
+                    .span2{
+                        margin-left: 140px;
+                        color: #0055ff;
+                        
+                    }
+                     
+                }
+            }
+            .li6{
+                line-height: 60px;
+                button{
+                    width: 250px;
+                    height: 33px;
+                    text-align: center;
+                    border-radius:3px ;
+                    border: none;
+                    background: #dd0022;
+                    color: white
+                }
+            }       
+        }
+    }
+}

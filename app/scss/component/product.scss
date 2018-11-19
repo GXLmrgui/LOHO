@@ -1,0 +1,185 @@
+.product-box{
+    margin: 0 auto;
+    width: 1191px;
+    height: 745px;
+    
+    .p1{
+        height:37px;
+        line-height: 37px;
+        font-size: 12px;
+        
+    }
+    .left{
+        float: left;
+        height: 702px;
+        width: 702px;
+        
+        .adrees{
+            width: 702px;
+            height: 230px;
+            background: #f5f5f5;
+        }
+    }
+    .right{
+        float: right;
+        height: 702px;
+        width: 465px;
+        
+        .kuanxing{
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            width: 465px;
+            font-size: 14px;
+            font-weight: 600;
+            
+        }
+        .jiage{
+            padding-left: 50px;
+            height: 50px;
+            line-height: 50px;
+            width: 465px;
+            font-size: 12px;
+             
+            .price{
+                font-size:25px;
+                font-weight: 800;
+                color: red;
+            }
+        }
+        .pingjia{
+            position: relative;
+            padding-left: 50px;
+            height: 50px;
+            line-height: 50px;
+            width: 465px;
+            font-size: 12px;
+             
+            .span0{
+               top:15px;
+               position: absolute; 
+               height: 14px;
+               width: 80px;
+               background: url(/images/img/spirit.png)no-repeat;
+               background-position:0 -113px;
+            }
+            .span1{
+                margin-left: 85px;
+                
+            }
+        }
+        .yanse{
+            position: relative;
+            padding-left: 50px;
+            height: 80px;
+            line-height: 80px;
+            width: 465px;
+            font-size: 12px;
+            
+            .span0{
+               color: black;
+               
+            }
+            .span1{
+                left: 80px;
+                top:20px;
+                position: absolute; 
+                height: 35px;
+                width: 80px;
+               
+                img{
+                   height: 35px;
+                   width: 80px; 
+                   line-height: 35px;
+                }
+            }
+            .span2{
+                color:#cccccc ;
+                margin-left: 95px;
+            }
+        }
+        .gouwu{
+            height: 100px;
+            padding-left: 50px;
+            
+            .btn1{
+                float: left;
+                margin-top: 20px;
+                display: block;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 50px;
+                text-align: center;
+                height: 50px;
+                width: 180px;
+               
+                background: white;
+                color: red;
+            }
+            .btn2{
+                margin-left: 15px;
+                float: left;
+                margin-top: 20px;
+                display: block;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 50px;
+                text-align: center;
+                height: 50px;
+                width: 200px;
+                
+                background: red;
+                color: white;
+            }
+            
+        }
+    }
+}
+#small{
+    position: relative;
+    margin: 100px auto;
+    width: 350px;
+    height: 180px;
+    
+    text-align: center;
+}
+#smallImg{
+    width: 350px;
+    height: 180px; 
+    
+}
+ #fdjbox{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    opacity:0;
+    z-index:2;
+    cursor:move;
+} 
+#zoom{
+    position:absolute;
+    width:75px;
+    height:75px;
+    background:rgba(0,0,0,0.5);
+    display:none;
+    cursor: move;
+    
+}
+#big{
+   width: 400px;
+   height: 250px;
+   position: absolute;
+   left: 714px;
+   top: 277px;
+   overflow: hidden;
+   display: none;
+   
+}
+#bigImg{
+    height: 200%;
+    width: 200%;
+    position: absolute;
+    z-index: 5;
+    
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../scss/cart.css"/>
+	</head>
+	<body>
+		<div class="cart">
+			<header>
+				<div class="title">
+					<ul class="nouser" id="nouser">
+						
+						<li><span>Hi～欢迎来到LOHO!</span></li>
+						<li><a href="/html/login.html">[ 请登录  ]</a></li>
+						<li><a href="/html/register.html">[ 注册  ]</a></li>
+						<li><a href="javsascript:;">收藏LOHO</a></li>
+					</ul>
+					<ul class="welcome" id="welcome">
+						
+						<li><span>您好,</span><span id="username" class="username"></span><span>,欢迎您回来！</span></li>
+						<li><a href="/html/login.html">【用户中心&nbsp;|&nbsp;退出】</a></li>
+						
+					</ul>
+					<ul class="center">
+						<li><a href="javsascript:;">MY LOHO</a></li>
+						<li><a href="javsascript:;">我的订单</a></li>
+						<li class="scar"></li>
+						<li><a href="javsascript:;">购物车(<span>num</span>)</a></li>
+						<li><a href="javsascript:;">手机版</a></li>
+						<li class="phone"></li>
+						<li><p>400-8871920 (09:00-23:00)</p></li>
+					</ul>
+				    <ul class="right">
+				    	<li><input type="text"></input></li>
+				    	<li><a href="javsascript:;" class="a1">搜索</a></li>
+				    </ul>
+				</div>
+			</header>
+			<div class="logo"><img src="../images/logo-1.jpg"/></div>
+			<div class="scart">
+				<form>
+					<div class="title">
+						    <input type="checkbox">全选</input>
+							<span class="span1">商品</span>
+							<span class="span2">单价(元)</span>
+							<span class="span3">数量</span>
+							<span class="span4">金额(元)</span>
+							<span class="span5">操作</span>
+					</div>
+					<ul class="alls"></ul>
+					    <script type="text/html" id="pro-template" class="pro-template">
+	                        {{each product item i}}
+							<li class="list">
+								<div class="sp1"><input type="checkbox"></div>
+								<div class="sp2"><img src="{{item.img}}" class="img"/></div>
+								<div class="sp3">{{item.a1}}</div>
+								<div class="price">{{item.price}}</div>
+								<div class="num">
+									<a href="javascript:;" class="jian">-</a>
+									<input type="text" name="number" id="number" class="number" value="{{item.num}}"/>
+									<a href="javascript:;" class="jia">+</a>
+								</div>
+								<div class="aprice">{{item.price*item.num}}</div>
+								<div class="del"><a href="javascript:;">移除</a></div>
+							</li>
+					        {{/each}}
+	                    </script>	
+					<div class="opt">
+						<input type="checkbox" name="delall" id="delall" />清除所有商品</input>
+						<span class="miaoshu">商品总价（不含运费）：</span>
+						<span class="allprice"></span>
+						<a href="javascript:;">去结算</a>
+					</div>
+				</form>
+			</div>
+			<footer><img src="../images/footer-1.jpg"></footer>
+		</div>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/cart.js"></script>
+	</body>
+</html>

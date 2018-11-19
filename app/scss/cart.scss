@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cart{
+    height: 888px;
+    width: 1280px;
+    margin: 0 auto;
+    header{
+        height: 36px;
+        width: 989px;
+        margin: 0 auto;
+        line-height: 36px;
+       
+        .title{
+            margin-left: 37px;
+            margin-top: 10px;
+            width: 990px;
+            height: 30px;
+            margin: 0 auto;
+            
+        }
+        .title .nouser{
+            float: left;
+            width: 330px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+          
+        }
+        .title .nouser  li{
+            float: left;
+            margin-left: 10px;
+        }
+        .welcome{
+            display: none;
+            float: left;
+            width: 330px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            
+        }
+        .welcome  li{
+            float: left;
+            margin-left: 10px;
+            .username{
+                color: #e0061e;
+            }
+        }
+        .title .center{
+            margin-left: 5px;
+            float: left;
+            width: 442px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            
+        }
+        .title .center li{
+            float: left;
+            margin-left: 5px;
+            
+        }
+        .title .center .scar{
+            margin-top: 5px;
+            float: left;
+            width: 20px;
+            height: 20px;
+            background:url(../images/spirit.png) no-repeat ;
+            background-position:-94px 0;
+        
+        }
+         .title .center .phone{
+            margin-top: 5px;
+            float: left;
+            width: 14px;
+            height: 14px;
+            border: 2px solid black;
+            background:url(../images/spirit.png) no-repeat ;
+            background-position:-50px -17px;
+        
+        }
+        .title .center li span{
+            color: red;
+        }
+        .title .right{
+            float: right;
+            width: 210px;
+            height: 30px;
+            line-height: 30px;
+        }
+        .title .right li input{
+            float: left;
+            width: 160px;
+            height: 28px;
+            line-height: 30px;
+            border: 1px solid #e0061e;
+        }
+        .title .right li a{
+            float: left;
+            display: block;
+            width: 48px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background: #e0061e;
+            color: white;
+        }
+    }
+    
+    
+    
+    
+    .logo{
+        width: 989px;
+        height: 183px;
+        margin: 0 auto;
+      
+    }
+    .scart{
+        width: 989px;
+        height: 489px;
+        margin: 0 auto;
+        
+        form{
+            height: 476px;
+            .title{
+                    height: 44px;
+                    background: #f6f6f6;
+                    font-size: 12px;
+                    line-height: 44px;
+                    input{
+                        width: 13px;
+                        height: 13px;
+                        margin-left: 13px;
+                    }
+                    .span1 {
+                        margin-left: 210px;
+                    }
+                    .span2 {
+                        margin-left: 260px;
+                    }
+                    .span3 {
+                        margin-left: 80px;
+                    }
+                    .span4{
+                        margin-left: 80px;
+                    }
+                    .span5 {
+                        margin-left: 70px;
+                    }
+            }
+            ul{
+                height: 373px;
+                li{
+                    height: 76px;
+                    margin-top: 10px;
+                    line-height: 76px;
+                    border: 1px solid #cccccc;
+                    
+                    
+                    .sp1{
+                        height: 76px;
+                        float: left;
+                        margin-left: 13px;
+                        
+                    }
+                    .sp2{
+                        margin-left: 3px;
+                        height: 76px;
+                        float: left;
+                        margin-left: 5px;
+                        margin-top: 0px;
+                        
+                        img{
+                            width: 105px;
+                            height: 37px;
+                            border: 1px solid #cccccc;
+                            margin-top: 20px;
+                        }
+                    }
+                    .sp3{
+                        margin-left: 5px;
+                        height: 76px;
+                        float: left;
+                        width: 400px;
+                        
+                    }
+                    .price{
+                        margin-left: 8px;
+                        height: 50px;
+                        float: left;
+                        width: 110px;
+                       
+                    }
+                    .num{
+                        position: relative;
+                        height: 76px;
+                        float: left;
+                        
+                        width: 86px;
+                        line-height: 76px;
+                        
+                        .jian{
+                            
+                            padding-left:8px ;
+                            padding-right:8px ;
+                            border: 1px solid #cccccc;
+                        }
+                        input{
+                            display: block;
+                            position: absolute;
+                            text-align: center;
+                            
+                            top: 26px;                           
+                            left: 22px;
+                            width: 41px;
+                            height: 21px;
+                            line-height: 21px;
+                            border: 1px solid #cccccc;
+                            
+                        }
+                        .jia{
+                            margin-left:32px;
+                            padding-left:5px ;
+                            padding-right:5px ;
+                            border: 1px solid #cccccc;
+                        }
+                        
+                    }
+                    .aprice{
+                        margin-left: 40px;
+                        height: 76px;
+                        float: left;
+                        width: 70px;
+                            
+                        }
+                    .del{
+                            height: 76px;
+                            float: left;
+                            width: 110px;
+                            
+                            line-height: 76px;
+                            text-align: center;
+                    }
+                }
+                
+            }
+            .opt{
+                    border-top: #cccccc;
+                    height: 60px;
+                    
+                    font-size: 12px;
+                    line-height: 60px;
+                    color: dodgerblue;
+                    .miaoshu{
+                        margin-left: 560px;
+                        width: 200px;
+                        
+                        color: #cccccc;
+                    }
+                    .allprice{
+                            width: 100px;
+                            font-size: 25px;
+                            font-weight: 600;
+                            color: red;
+                           
+                    }
+                    a{
+                        
+                        display: block;
+                        float: right;
+                        height: 60px;
+                        width: 110px;
+                        background: red;
+                        line-height: 60px;
+                        text-align: center;
+                        font-size:20px ;
+                        color: white;
+                    }
+                }
+        }
+        
+    }
+    footer{
+        width: 989px;
+        height: 193px;
+        margin: 0 auto;
+         
+    }
+}

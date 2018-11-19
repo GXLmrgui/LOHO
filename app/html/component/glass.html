@@ -1,0 +1,27 @@
+<div class="newglass" id="newglass">
+	
+</div>
+	<script type="text/html" id="pro-template">
+	{{each product item i}}	
+	<div class="liac" id="liac">
+		<div class="glassimg">
+			<a href="/html/buy.html"><img src="{{item.img1}}"/></a>
+		</div>
+		<div class="price">
+			<p class="c-matter"> {{item.a1}}</p>
+			<p>LOHO价：<span class="c-price">{{item.price}}</span></p>
+		</div>
+		<div class="depict">
+				
+			<p class="p1">三个月已售：1337副</p>
+			<p class="p2">
+				<span class="span1"><a href="/html/buy.html" id="{{item.id}}" class="btn-group">立即购买</a></span>
+				<span class="span2"><a href="javascript:;">免费预约验光</a></span>
+				<a href="javascript:;"  class="span3" id="{{item.id}}">添加到购物车</a>
+			</p>
+		</div>
+	</div>	
+	{{/each}}	
+	</script>	
+		
+

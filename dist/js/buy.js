@@ -1,0 +1,1 @@
+require(["config"],function(){require(["jquery","header","product","jquerycookie","footer"],function(o,t,e,n,r){o("header").load("/html/component/header.html",function(){t.init()}),o("product").load("/html/component/product.html",function(){e.init()}),o("footer").load("/html/component/footer.html",function(){})})});

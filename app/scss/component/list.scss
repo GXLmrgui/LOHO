@@ -1,0 +1,150 @@
+
+@import "glass.scss";
+.list{
+    width: 1191px;
+    height: 1480px;
+    
+    margin: 0 auto;
+    .p1{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        span{
+            color: #cccccc;
+        }
+    }
+    .img{
+        width: 100%;
+        height: 200px;
+        background: url(/images/man/1527292044600192117.jpg)no-repeat;
+        background-position:100% 100% ;
+    }
+    .box{
+        height: 153px;
+        width: 100%;
+        margin-top: 16px;
+        border: 1px solid #cccccc;
+        .left{
+            float: left;
+            width: 580px;
+            height: 153px;
+            border-right: 1px solid #cccccc;
+            .shoplist{
+                height: 30px;
+                line-height: 30px;
+                width: 100%;
+                
+                .title{
+                    font-size: 12px;
+                    font-weight: 600;
+                    float: left;
+                    height: 100%;
+                    width: 50px;
+                    
+                    
+                }
+                ul{
+                    float: left;
+                    height: 100%;
+                    width: 525px; 
+                    
+                    display: flex;
+                    flex-flow:row wrap;
+                    justify-content:flex-start;
+                    align-items:center; 
+                    li{
+                        
+                        a{
+                          font-size: 12px;
+                          color: #4d4d4d;
+                          padding-left: 20px;
+                          padding-right: 20px;
+                            
+                        }
+                    }
+                }
+                
+            }
+        }
+        .right{
+            float: left;
+            width: 580px;
+            height: 153px;
+            .shoplist{
+                height: 30px;
+                line-height: 30px;
+                width: 100%;
+                
+                .title{
+                    font-size: 12px;
+                    font-weight: 600;
+                    float: left;
+                    height: 100%;
+                    width: 50px;
+                    
+                    
+                }
+                ul{
+                    float: left;
+                    height: 100%;
+                    width: 525px; 
+                    
+                    display: flex;
+                    flex-flow:row wrap;
+                    justify-content:flex-start;
+                    align-items:center; 
+                    li{
+                        
+                        a{
+                          font-size: 12px;
+                          color: #4d4d4d;
+                          padding-left: 20px;
+                          padding-right: 20px;
+                            
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    .box2{
+        width: 100%;
+        height: 968px;
+        
+        .btnbox{
+            height: 32px;
+           
+            ul{
+                height: 30px;
+                width: 300px;
+                margin-top: 10px;
+                margin-top: 14px;
+                li{
+                    
+                    float: left;
+                    border: 1px solid #cccccc;
+                    a{
+                        height: 30px;
+                
+                        line-height: 30px;
+                        font-size: 12px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        cursor: pointer;
+                    }
+                   
+                    
+                }
+                
+            }
+        }
+        .glass{
+            height: 968px;
+            
+        }
+    }
+}
+

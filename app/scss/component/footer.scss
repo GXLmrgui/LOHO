@@ -1,0 +1,375 @@
+.footer{
+    height: 665px;
+    width: 100%;
+}
+.footer .footer-top{
+    height: 212px;
+    width: 1190px;
+    margin: 0 auto;
+    
+}
+.footer .footer-top .box{
+    
+    height: 194px;
+    width: 1190px;
+    background: #efefef;
+    overflow:hidden ;
+    
+    ul{ 
+        margin-top: 34px;
+        margin-left: 17px;
+        height: 140px;
+        width: 1158px;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+        align-items:center;
+        
+        li{
+        width: 282px;
+        height: 62px;
+        border: 1px solid #FFFFFF;
+        border-radius:5px ;
+        background-color:#FFFFFF ;
+            .spanbox{
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                height: 40px;
+                line-height: 40px;
+                font-size: 12px;
+                p{
+                    height: 24px;
+                    line-height: 24px;
+                    font-size: 12px;
+                    text-align: center;  
+                }
+        
+            }
+        }
+        .li1 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: 0px 0px;   
+                }
+                strong{
+                    
+                }
+        }
+        .li2 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 21px;
+                    width: 47px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: 0px -32px;   
+                }
+                strong{
+                    
+                }
+        }
+        .li3 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 25px;
+                    width: 32px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: 0px -54px;   
+                }
+                strong{
+                    
+                }
+        }
+        .li4 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 28px;
+                    width: 45px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: 0px -82px;   
+                }
+                strong{
+                    
+                }
+        }
+        
+        .li5 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 33px;
+                    width: 32px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: 0px -110px;   
+                }
+                strong{
+                    
+                }
+        }
+        .li6 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 32px;
+                    width: 32px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: -32px 0px;   
+                }
+                strong{
+                    
+                }
+        }
+        .li7 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 28px;
+                    width: 34px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: -34px -52px;   
+                }
+                strong{
+                    
+                }
+        }
+        .li8 .spanbox{
+                i{
+                    display: inline-block;
+                    height: 25px;
+                    width: 49px;
+                    background: url(/images/spirit2.png) no-repeat;
+                    background-position: 0px -147px;   
+                }
+                strong{
+                    
+                }
+        }
+    }   
+    
+}
+.footer .footer-top p{
+   
+   padding-left:12px ;
+   font-size: 12px; 
+}
+.footer .footer-center{
+    width: 1190px;
+    height: 290px;
+    background: #000000;
+    margin: 0 auto;
+    .tel{
+        width: 100%;
+        height: 67px;
+        line-height: 67px;
+        font-size:12px ;
+        color: white;
+        border-bottom: 2px solid #262626;
+        position: relative;
+        .span1{
+            display: inline-block;
+            position: absolute;
+            margin-left: 18px;
+            width: 23px;
+            height: 20px;
+            background: url(/images/spirit.png) no-repeat;
+            background-position: -28px -5px;
+            top:24px;
+        }
+        .span2{
+            margin-left: 50px;
+            color: #d0280c;
+        }
+        .span3{
+          margin-left: 5px;  
+        }
+        .span4{
+          margin-left: 5px;  
+          font-size: 18px;
+          font-weight: 600;
+          color: #d0280c;
+        }
+        .span5{
+          margin-left: 5px;  
+        }
+        .span6{
+            display: inline-block;
+            position: absolute;
+            margin-left: 32px;
+            width: 24px;
+            height: 24px;
+            background: url(/images/spirit.png) no-repeat;
+            background-position: -2px -2px;
+            top:24px;
+        }
+        .span7{
+          margin-left: 55px;  
+        }
+        .span8{
+            margin-left: 5px;
+            color: #d0280c;
+        }
+        .span9{
+          margin-left: 5px;  
+          color: #999999;
+        }
+    }
+    ul{
+        float: left;
+        margin-top: 20px;
+        margin-left: 18px;
+        width: 992px;
+        height: 104px;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content:space-between;
+        align-items:center;
+        li{
+            width: 162px;
+            height: 24px;
+            font-size: 12px;
+            color: #666666;
+            a:hover{
+               color: white; 
+            }
+        }
+    }
+    div{
+        float: right;
+        width: 176px;
+        height: 200px;
+        margin-top: 20px;
+        
+        span{
+            margin-top: 3px;
+            margin-left: 32px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background: url(/images/img/QRcode2.jpg) no-repeat;
+            background-size:100% 100%;
+            
+        }
+        p{
+           height: 40px;
+           width: 100%;
+           line-height: 40px; 
+           font-size: 12px;
+           color: white;
+           text-align: center;
+        }
+    }
+}
+.footer .footer-bottom{
+    height: 142px;
+    width: 1191px;
+    margin: 0 auto;
+    .link ul{
+        height: 44px;
+        width: 100%;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content:flex-start;
+        align-items:center;
+        .title{
+            height: 21px;
+            line-height: 21px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        li{
+          height: 21px;  
+          line-height: 21px;
+          a{
+              font-size: 12px;
+              color: black;
+              padding-left: 4px;
+              padding-right: 5px;
+           }
+        }
+        .lastLi a{
+            color: #ff4700;
+        }
+    }
+    .partner{
+        width: 100%;
+        
+        ul{ 
+            width: 458px;
+            height: 53px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+            align-items:center;
+            li{
+                &:nth-child(1){
+                    height: 42px;
+                    width: 42px;
+                    background:url(/images/img/loho_87.jpg) no-repeat;
+                    background-size:100% 100% ; 
+                }
+                &:nth-child(2){
+                    height: 40px;
+                    width: 35px;
+                    background:url(/images/img/loho_88.jpg) no-repeat;
+                    background-size:100% 100% ; 
+                }
+                &:nth-child(3){
+                    height: 40px;
+                    width: 40px;
+                    background:url(/images/img/loho_89.jpg) no-repeat;
+                    background-size:100% 100% ; 
+                }
+                &:nth-child(4){
+                    height: 40px;
+                    width: 83px;
+                    background:url(/images/img/loho_90.jpg) no-repeat;
+                    background-size:100% 100% ; 
+                }
+                &:nth-child(5){
+                    height: 40px;
+                    width: 83px;
+                    background:url(/images/img/loho_92.jpg) no-repeat;
+                    background-size:100% 100% ; 
+                }
+                &:nth-child(6){
+                    height: 30px;
+                    width: 88px;
+                    background:url(/images/img/newGovIcon.gif) no-repeat;
+                    background-size:100% 100% ; 
+                }
+            }
+        }
+        
+    }
+    .copyriht{
+        width: 100%;
+        height: 16px;
+        
+        p{  
+            font-size: 12px;
+            color: #4d4d4d;
+            text-align: center;
+        }
+        span{
+            background:url(/images/img/ghs.png) no-repeat;
+            //background-size:100% 100% ; 
+        }
+    }
+    
+}
+.footer .footer-last{
+        width: 1191px;
+        height: 20px;
+        margin: 0 auto;
+        background: #555555;
+        text-align: center;
+        span{
+            padding-left:5px;
+            padding-right:5px;
+            a{
+                color: white;  
+            }
+        }
+}
+    

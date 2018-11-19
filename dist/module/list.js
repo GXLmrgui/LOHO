@@ -1,0 +1,1 @@
+"use strict";define(["jquery","glass","template","jquerycookie"],function(n,e,t,i){function o(){}return o.prototype.init=function(){n(".glass").load("/html/component/glass.html",function(){e.init()});n("#btnbox li");n(".test").click(function(t){"test11"==(t=t||event).target.id&&(n(".glass").html(""),n(".glass").load("/html/component/glass.html",function(){e.init()}))})},new o});
